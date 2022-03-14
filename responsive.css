@@ -1,0 +1,23 @@
+/* Untuk tablet */
+@media all and (max-width: 1000px) {
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    /* HEADER */
+    .header-nav{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .header-flex{
+        justify-content: space-between;
+    }
+    /* HOME */
+    .home .content h1 {
+        font-size: 50px;
+    }
+    
+}
