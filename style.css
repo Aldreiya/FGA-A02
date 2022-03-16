@@ -27,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: "Avenir Next";
 }
 ol, ul {
 	list-style: none;
@@ -62,7 +63,7 @@ header{
     padding: 0 20px;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
 }
 .header-flex{
     display: flex;
@@ -102,7 +103,7 @@ header{
 .home {
     background-image: url(Image/top-view-colorful-pencils-lined-dark-background.jpg);
     background-size: cover;
-    height: 500px;
+    height: 48em;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -143,10 +144,129 @@ header{
 /* AKHIR HOME */
 
 /* AWAL CONTENT */
-
+.main-content{
+    background-color: rgb(214, 208, 194);
+    display: flex;
+    width: auto;
+    height: 100%;
+    z-index: 1;
+    padding-top: 20px;
+}
+.content-container{
+    /* background-color: burlywood; */
+    height: auto;
+    z-index: 2;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+}
+#intro{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Avenir Next";
+}
+#outro{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Avenir Next";
+}
+#border{
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#sosmed-1{
+    width: 30px;
+    height: auto;
+    border: 0px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.a1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.a1 img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #c3bbb1;
+    border-radius: 120px;
+}
+.a1-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.a1-info h3{
+    font-size: 40px;
+}
+.a2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.a2 img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #c3bbb1;
+    border-radius: 120px;
+}
+.a2-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+.a2-info h3{
+    text-align: end;
+    font-size: 40px;
+}
 /* AKHIR CONTENT */
 
 /* AWAL FOOTER */
-
+.footer {
+    background-color: #fad390;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  footer img {
+    width: 200px;
+    float: right;
+  }
+  
+  .footer-list {
+    float: left;
+  }
+  
+  .footer-list li {
+    padding-top: 25px;
+    color: #130f40;
+    float: center;
+  }
+  
+  span {
+    font-size: 30;
+    font-weight: bold;
+    border-bottom: 2px solid;
+  }
+  
+  .section-title {
+    line-height:normal;
+    clear:both;
+    text-align:center;
+  }
 /* AKHIR FOOTER */
 
