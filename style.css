@@ -103,7 +103,7 @@ header{
 .home {
     background-image: url(Image/top-view-colorful-pencils-lined-dark-background.jpg);
     background-size: cover;
-    height: 300em;
+    height: 300px;
     text-align: center;
     justify-content: center;
     display: flex;
